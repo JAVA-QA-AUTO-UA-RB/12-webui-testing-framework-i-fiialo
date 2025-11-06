@@ -49,43 +49,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Maven.SELENIUM_TESTNG_HOMEWORK [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SeleniumTestngTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SeleniumTestngTest.myTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/_projects/java-qa-auto-2-0-12-webui-testing-framework-SELENIUM_WEBDRIVER_HOMEWORK&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.45181876&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.SELENIUM_TESTNG_HOMEWORK [test].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.addRemoveElementsTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.checkboxesTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.dragAndDropTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.dropdownListTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.formAuthenticationTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.horizontalSliderPreciseTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.horizontalSliderStepTo3_0Test.executor": "Run",
+    "TestNG.SeleniumTestngTest.horizontalSliderStepTo3_5Test.executor": "Run",
+    "TestNG.SeleniumTestngTest.horizontalSliderTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.myTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.setSliderToPreciseValueTest.executor": "Run",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/_project/12-webui-testing-framework-i-fiialo",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.45181876",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.SeleniumTestngTest">
-    <configuration name="SeleniumTestngTest" type="TestNG" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_5Test">
+    <configuration name="SeleniumTestngTest.horizontalSliderPreciseTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTestngTest.abTestingPageHasSpecificTextTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="abTestingPageHasSpecificTextTest" />
+      <option name="METHOD_NAME" value="horizontalSliderPreciseTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,11 +92,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.draganddropTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTestngTest.horizontalSliderStepTo3_0Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="draganddropTest" />
+      <option name="METHOD_NAME" value="horizontalSliderStepTo3_0Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTestngTest.horizontalSliderStepTo3_5Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="horizontalSliderStepTo3_5Test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,11 +128,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTestngTest.setSliderToPreciseValueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="myTest" />
+      <option name="METHOD_NAME" value="setSliderToPreciseValueTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTestngTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_5Test" />
+        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_0Test" />
         <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.draganddropTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.myTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.setSliderToPreciseValueTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderPreciseTest" />
       </list>
     </recent_temporary>
   </component>

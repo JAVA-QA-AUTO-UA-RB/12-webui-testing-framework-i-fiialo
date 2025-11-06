@@ -1,13 +1,15 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
+import java.time.Duration;
 
 public class BasicSetupTest {
 
     public ChromeDriver browser;
+    public WebDriverWait wait;
 
-    @BeforeSuite
     public void webdriverCommonSetup() {
         // не змінюйте цей метод
         // в даному випадку він використовується, щоб автоматично підтягнути і встановити
@@ -22,6 +24,7 @@ public class BasicSetupTest {
 
         browser = new ChromeDriver(options);
         browser.manage().window().maximize();
+        wait = new WebDriverWait(browser, Duration.ofSeconds(5));
     }
 
     // В цих методах відбувається ініціалізація браузера перед виконанням тестових методів
