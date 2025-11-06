@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -6,17 +7,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
 import java.util.List;
 
 public class SeleniumTestngTest extends BasicSetupTest {
 
-
     @Test
     public void abTestingPageHasSpecificTextTest() {
         browser.get("https://the-internet.herokuapp.com/");
-        WebElement abTestingTaskLink = browser.findElement(By.linkText("A/B Testing"));
-        abTestingTaskLink.click();
-        Assert.assertTrue(true);
+        WebElement header = wait.until(ExpectedConditions.visibilityOfElementLocated(By.tagName("h3")));
+        String actualText = header.getText().trim();
+        Assert.assertTrue(actualText.contains("A/B Test"),
+                "Очікуваний текст не знайдено. Фактичний: " + actualText);
     }
 
     @Test
@@ -52,7 +55,7 @@ public class SeleniumTestngTest extends BasicSetupTest {
     public void checkboxesTest() throws InterruptedException {
         browser.get("https://the-internet.herokuapp.com/checkboxes");
         WebElement checkboxesTest1 = browser.findElement(By.cssSelector("input[type=checkbox]:nth-child(1)"));
-        WebElement checkboxesTest2 = browser.findElement(By.cssSelector("input[type=checkbox]:nth-child(3)"));
+        WebElement checkboxesTest2 = browser.findElement(By.cssSelector("input[type=checkbox]:nth-child(2)"));
 
         if (!checkboxesTest1.isSelected()) {
             checkboxesTest1.click();
@@ -64,12 +67,10 @@ public class SeleniumTestngTest extends BasicSetupTest {
 
         Assert.assertTrue(checkboxesTest1.isSelected(), "Перший чекбокс не обраний");
         Assert.assertTrue(checkboxesTest2.isSelected(), "Другий чекбокс не обраний");
-
-        Thread.sleep(1500);
     }
 
     @Test
-    public void dropdownListTest () throws InterruptedException {
+    public void dropdownListTest() throws InterruptedException {
         browser.get("https://the-internet.herokuapp.com/dropdown");
         WebElement dropdownListElement = browser.findElement(By.id("dropdown"));
         Select dropdown = new Select(dropdownListElement);
@@ -100,8 +101,6 @@ public class SeleniumTestngTest extends BasicSetupTest {
                 .visibilityOfElementLocated(By.cssSelector("form#login input[name='username']")));
         Assert.assertTrue(loginField.isDisplayed(),
                 "Користувач не був перенаправлений на сторінку входу після виходу з системи");
-
-        Thread.sleep(2000);
     }
 
     @Test
@@ -115,31 +114,22 @@ public class SeleniumTestngTest extends BasicSetupTest {
 
         String headerA = browser.findElement(By.cssSelector("#column-a header")).getText();
         Assert.assertEquals(headerA, "B", "Елемент A не був перетягнутий на місце B");
-
-        Thread.sleep(1500);
     }
 
     @Test
-    public void horizontalSliderTest() throws InterruptedException {
+    public void horizontalSliderStepTo3_5Test() {
         browser.get("https://the-internet.herokuapp.com/horizontal_slider");
         WebElement slider = browser.findElement(By.cssSelector("input[type='range']"));
-        WebElement valueDisplay = browser.findElement(By.cssSelector("#range"));
+        WebElement valueDisplay = browser.findElement(By.id("range"));
 
-        String initialValue = valueDisplay.getText();
-
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
             slider.sendKeys(Keys.ARROW_RIGHT);
         }
+        slider.sendKeys(Keys.ARROW_RIGHT);
 
-        wait.until(driver -> !valueDisplay.getText().equals(initialValue));
-
-        String newValue = valueDisplay.getText();
-
-        Assert.assertNotEquals(newValue, initialValue, "Значення слайдера не змінилося після руху");
-        System.out.println("Slider value changed from " + initialValue + " to " + newValue);
-
-        Thread.sleep(1500);
-
+        Assert.assertEquals(
+                valueDisplay.getText(),
+                "3.5",
+                "Слайдер не встановив точне значення 3.5");
     }
-
 }
