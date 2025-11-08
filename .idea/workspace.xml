@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest/java/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AbTestingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AddRemoveElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/CheckboxesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DragAndDropPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HorizontalSliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AbTestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AuthenticationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CheckboxesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DragAndDropTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/HorizontalSliderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_CUCUMBER.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_CUCUMBER.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_PAGE_OBJECTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_PAGE_OBJECTS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +41,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,6 +81,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AbTestingTest.executor": "Run",
+    "TestNG.AbTestingTest.headerShouldContainAbTestText.executor": "Run",
+    "TestNG.AddRemoveElementsTest.elementShouldAppearAndDisappear.executor": "Debug",
+    "TestNG.AddRemoveElementsTest.executor": "Run",
+    "TestNG.AuthenticationTest.executor": "Run",
+    "TestNG.CheckboxesTest.executor": "Run",
+    "TestNG.DragAndDropTest.executor": "Run",
+    "TestNG.DropdownTest.executor": "Run",
+    "TestNG.HorizontalSliderTest.executor": "Run",
     "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor": "Run",
     "TestNG.SeleniumTestngTest.addRemoveElementsTest.executor": "Run",
     "TestNG.SeleniumTestngTest.checkboxesTest.executor": "Run",
@@ -69,7 +103,7 @@
     "TestNG.SeleniumTestngTest.horizontalSliderTest.executor": "Run",
     "TestNG.SeleniumTestngTest.myTest.executor": "Run",
     "TestNG.SeleniumTestngTest.setSliderToPreciseValueTest.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/page-objects-refactor",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/_project/12-webui-testing-framework-i-fiialo",
@@ -79,61 +113,86 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_5Test">
-    <configuration name="SeleniumTestngTest.horizontalSliderPreciseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.HorizontalSliderTest">
+    <configuration name="AuthenticationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="horizontalSliderPreciseTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AuthenticationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.horizontalSliderStepTo3_0Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckboxesTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="horizontalSliderStepTo3_0Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CheckboxesTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.horizontalSliderStepTo3_5Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DragAndDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="horizontalSliderStepTo3_5Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DragAndDropTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.horizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DropdownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="horizontalSliderTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.DropdownTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.setSliderToPreciseValueTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HorizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="setSliderToPreciseValueTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HorizontalSliderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_5Test" />
-        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_0Test" />
-        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.setSliderToPreciseValueTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderPreciseTest" />
+        <item itemvalue="TestNG.HorizontalSliderTest" />
+        <item itemvalue="TestNG.DropdownTest" />
+        <item itemvalue="TestNG.AuthenticationTest" />
+        <item itemvalue="TestNG.DragAndDropTest" />
+        <item itemvalue="TestNG.CheckboxesTest" />
       </list>
     </recent_temporary>
   </component>
