@@ -161,7 +161,7 @@ public class BaseTest {
 ```java
 package tests;
 
-import base.BaseTest;
+import BaseTest.java.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AbTestingPage;
