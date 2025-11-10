@@ -5,8 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="Remove GitHub Classroom autograding configuration&#10;&#10;Deleted autograding setup files (`autograding.json` and `github-classroom.yml`) to reflect a transition away from GitHub Classroom workflows. Simplified ChromeDriver setup in tests by eliminating unnecessary arguments, improving readability and maintainability.">
+      <change afterPath="$PROJECT_DIR$/README_by_Fiialo.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hooks/WebHooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/CucumberTestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AbTestingSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AddAndRemoveTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AuthentificationTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/CheckboxesTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DragAndDropTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DropdownTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/HorizontalSliderTestSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ab_testing.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/add_remove_elements.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/authenticator.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/checkboxes.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/drag_and_drop.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dropdown.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/horizontal_slider.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_CUCUMBER.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_CUCUMBER.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_PAGE_OBJECTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/README_PAGE_OBJECTS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest/java/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AbTestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AbTestingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AddRemoveElementsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/AddRemoveElementsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CheckboxesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CheckboxesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DragAndDropPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DragAndDropPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DropdownPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DropdownPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HorizontalSliderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HorizontalSliderPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AbTestingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AbTestingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AuthenticationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AuthenticationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CheckboxesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CheckboxesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DragAndDropTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DragAndDropTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DropdownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DropdownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HorizontalSliderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HorizontalSliderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +60,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -52,10 +96,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Cucumber Java.Feature: ab_testing.executor": "Run",
+    "Cucumber Java.Feature: add_remove_elements.executor": "Run",
+    "Cucumber Java.Feature: horizontal_slider.executor": "Run",
+    "Cucumber Java.Scenario: Drag and Drop elements.executor": "Run",
+    "Cucumber Java.Scenario: Fill all checkboxes and check they are chosen.executor": "Run",
+    "Cucumber Java.Scenario: Select \"Option 2\" and check it.executor": "Run",
+    "Cucumber Java.Scenario: User add and removes 3 buttons.executor": "Run",
+    "Cucumber Java.Scenario: User adds and removes 3 buttons.executor": "Run",
+    "Cucumber Java.Scenario: User logs in and logs out.executor": "Run",
+    "Cucumber Java.Scenario: User moves slider to specific value.executor": "Run",
+    "Cucumber Java.Scenario: User sees the text \"A/B Test Control\" on the page.executor": "Run",
+    "Cucumber Java.Scenario: Verify A/B Testing page has specific text.executor": "Run",
     "Maven.SELENIUM_TESTNG_HOMEWORK [test].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.AbTestingTest.executor": "Run",
+    "TestNG.AbTestingTest.headerShouldContainAbTestText.executor": "Run",
+    "TestNG.AddRemoveElementsTest.elementShouldAppearAndDisappear.executor": "Debug",
+    "TestNG.AddRemoveElementsTest.executor": "Run",
+    "TestNG.AuthenticationTest.executor": "Run",
+    "TestNG.CheckboxesTest.executor": "Run",
+    "TestNG.CucumberTestRunner.executor": "Run",
+    "TestNG.DragAndDropTest.executor": "Run",
+    "TestNG.DropdownTest.executor": "Run",
+    "TestNG.HorizontalSliderTest.executor": "Run",
     "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor": "Run",
     "TestNG.SeleniumTestngTest.addRemoveElementsTest.executor": "Run",
     "TestNG.SeleniumTestngTest.checkboxesTest.executor": "Run",
@@ -69,7 +135,7 @@
     "TestNG.SeleniumTestngTest.horizontalSliderTest.executor": "Run",
     "TestNG.SeleniumTestngTest.myTest.executor": "Run",
     "TestNG.SeleniumTestngTest.setSliderToPreciseValueTest.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/cucumber__refactoring",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/_project/12-webui-testing-framework-i-fiialo",
@@ -79,61 +145,101 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_5Test">
-    <configuration name="SeleniumTestngTest.horizontalSliderPreciseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_project\12-webui-testing-framework-i-fiialo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.CucumberTestRunner">
+    <configuration name="Feature: ab_testing" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ab_testing.feature" />
+      <option name="GLUE" value="hooks steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="horizontalSliderPreciseTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ab_testing" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.horizontalSliderStepTo3_0Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: horizontal_slider" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/horizontal_slider.feature" />
+      <option name="GLUE" value="hooks steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="horizontalSliderStepTo3_0Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: horizontal_slider" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.horizontalSliderStepTo3_5Test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User moves slider to specific value" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/horizontal_slider.feature" />
+      <option name="GLUE" value="hooks steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="horizontalSliderStepTo3_5Test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="NAME_FILTER" value="^User moves slider to specific value$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User moves slider to specific value$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User moves slider to specific value" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.horizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User sees the text &quot;A/B Test Control&quot; on the page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ab_testing.feature" />
+      <option name="GLUE" value="hooks steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="horizontalSliderTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="NAME_FILTER" value="^User sees the text \&quot;A\/B Test Control\&quot; on the page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees the text \&quot;A\/B Test Control\&quot; on the page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User sees the text &quot;A/B Test Control&quot; on the page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.setSliderToPreciseValueTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CucumberTestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="setSliderToPreciseValueTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.CucumberTestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -142,11 +248,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_5Test" />
-        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderStepTo3_0Test" />
-        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.setSliderToPreciseValueTest" />
-        <item itemvalue="TestNG.SeleniumTestngTest.horizontalSliderPreciseTest" />
+        <item itemvalue="TestNG.CucumberTestRunner" />
+        <item itemvalue="Cucumber Java.Feature: ab_testing" />
+        <item itemvalue="Cucumber Java.Scenario: User sees the text &quot;A/B Test Control&quot; on the page" />
+        <item itemvalue="Cucumber Java.Scenario: User moves slider to specific value" />
+        <item itemvalue="Cucumber Java.Feature: horizontal_slider" />
       </list>
     </recent_temporary>
   </component>
