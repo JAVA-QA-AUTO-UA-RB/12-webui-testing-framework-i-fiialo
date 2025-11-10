@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class HorizontalSliderPage {
 
     private final WebDriver driver;
-    private final WebDriverWait wait;
+    private WebDriverWait wait;
 
     @FindBy(css = "input[type='range']")
     private WebElement slider;
@@ -18,7 +18,7 @@ public class HorizontalSliderPage {
     @FindBy(id = "range")
     private WebElement valueDisplay;
 
-    public HorizontalSliderPage(WebDriver driver, WebDriverWait wait) {
+    public HorizontalSliderPage(WebDriver driver) {
         this.driver = driver;
         this.wait = wait;
         PageFactory.initElements(driver, this);
@@ -29,7 +29,7 @@ public class HorizontalSliderPage {
         return this;
     }
 
-    public HorizontalSliderPage moveSliderTo3_5() {
+    public HorizontalSliderPage moveSliderTo3_5(double value) {
         for (int i = 0; i < 7; i++) {
             slider.sendKeys(Keys.ARROW_RIGHT);
         }

@@ -10,12 +10,12 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class DropdownPage {
 
     private final WebDriver driver;
-    private final WebDriverWait wait;
+    private WebDriverWait wait;
 
     @FindBy(id = "dropdown")
     private WebElement dropdownListElement;
 
-    public DropdownPage(WebDriver driver, WebDriverWait wait) {
+    public DropdownPage(WebDriver driver) {
         this.driver = driver;
         this.wait = wait;
         PageFactory.initElements(driver, this);
@@ -28,6 +28,11 @@ public class DropdownPage {
 
     public DropdownPage selectByIndex(int index) {
         new Select(dropdownListElement).selectByIndex(index);
+        return this;
+    }
+
+    public DropdownPage selectByVisibleText(String text) {
+        new Select(dropdownListElement).selectByVisibleText(text);
         return this;
     }
 

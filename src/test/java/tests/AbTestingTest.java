@@ -1,6 +1,6 @@
 package tests;
 
-import BaseTest.java.BaseTest;
+import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AbTestingPage;
@@ -12,6 +12,9 @@ public class AbTestingTest extends BaseTest {
         String text = new AbTestingPage(driver)
                 .open()
                 .getHeaderText();
-        Assert.assertTrue(text.contains("A/B Test"), "Очікували, що заголовок міститиме 'A/B Test'");
+
+        Assert.assertTrue(
+                text.contains("A/B Test"),
+                "Очікували, що заголовок міститиме 'A/B Test'");
     }
 }

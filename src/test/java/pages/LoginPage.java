@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LoginPage {
 
     private final WebDriver driver;
-    private final WebDriverWait wait;
+    private WebDriverWait wait;
 
     @FindBy(css = "form#login input[name='username']")
     private WebElement username;
@@ -24,7 +24,7 @@ public class LoginPage {
     @FindBy(css = "form#login input[name='username']")
     private WebElement loginField;
 
-    public LoginPage(WebDriver driver, WebDriverWait wait) {
+    public LoginPage(WebDriver driver) {
         this.driver = driver;
         this.wait = wait;
         PageFactory.initElements(driver, this);

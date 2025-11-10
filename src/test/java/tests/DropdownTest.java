@@ -1,6 +1,6 @@
 package tests;
 
-import BaseTest.java.BaseTest;
+import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.DropdownPage;
@@ -9,7 +9,7 @@ public class DropdownTest extends BaseTest {
 
     @Test
     public void selectDropdownListElement() {
-        DropdownPage page = new DropdownPage(driver, wait)
+        DropdownPage page = new DropdownPage(driver)
                 .open()
                 .selectByIndex(2);
 

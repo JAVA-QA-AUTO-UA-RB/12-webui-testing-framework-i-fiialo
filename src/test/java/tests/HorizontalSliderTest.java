@@ -1,6 +1,6 @@
 package tests;
 
-import BaseTest.java.BaseTest;
+import base.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HorizontalSliderPage;
@@ -8,10 +8,10 @@ import pages.HorizontalSliderPage;
 public class HorizontalSliderTest extends BaseTest {
 
     @Test
-    public void horizontalSliderStepTo3_5Test() {
-        HorizontalSliderPage page = new HorizontalSliderPage(driver, wait)
+    public void horizontalSliderStepTo3_5Test(double value) {
+        HorizontalSliderPage page = new HorizontalSliderPage(driver)
                 .open()
-                .moveSliderTo3_5();
+                .moveSliderTo3_5(value);
 
         Assert.assertEquals(page.getSliderValue(),
                 "3.5",

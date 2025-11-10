@@ -1,6 +1,6 @@
 package tests;
 
-import BaseTest.java.BaseTest;
+import base.BaseTest;
 import org.testng.annotations.Test;
 import org.testng.Assert;
 import pages.DragAndDropPage;
